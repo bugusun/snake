@@ -1,0 +1,55 @@
+# Keep this repository focused on the Snake pygame project.
+*
+
+# Project files
+!.gitignore
+!.gitattributes
+!README.md
+!requirements.txt
+!main.py
+
+# Source package
+!snake_game/
+!snake_game/**/
+!snake_game/**/*.py
+
+# Runtime asset directory placeholder
+!assets/
+!assets/.gitkeep
+
+# Always exclude generated/runtime files.
+__pycache__/
+*.py[cod]
+assets/generated/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+.env
+dist/
+build/
+
+# Local environments and editor state.
+Lib/
+Scripts/
+.venv/
+pyvenv.cfg
+.idea/
+.vscode/
+.codemoss/
+
+# Large or unrelated local workspaces in this folder.
+out/
+auxil/
+data/
+new-api-pool/
+SillyTavern/
+2-image/
+初期*/
+神人大乱斗/
+宣传部/
+迷宫/
+自控作业/
+CSHUWEI*/
+*.jar
+*.js
